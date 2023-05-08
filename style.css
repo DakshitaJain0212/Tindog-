@@ -1,0 +1,117 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.container-fluid{
+    /* padding: 2% 15% 5%; */
+    padding: 7% 15%;
+}
+#testimonials{
+    background-color: #ef8172;
+}
+#press{
+   background-color : #ef8172;
+    padding-bottom: 5%;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+.heading-title{
+        font-weight: 900;
+         line-height: 1.5;
+         font-size: 3.5rem;
+    }
+    .title-image{
+        width: 20%;
+        transform: rotate(25deg);
+        position: absolute;
+        right: 30%;
+     }
+     .navbar-brand{
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: 'ubuntu';
+     }
+     .navbar{
+        padding: 0 0 3rem ;
+     }
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.btn{
+    margin: 5% 3% 5% 0;
+}
+    #title .container-fluid{
+        padding: 3% 15% 7%;
+        text-align: left;
+    }
+    .testimonials-heading,.cta-head{
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    .features-heading{
+        font-weight: bold;
+    }
+    p, .pricing-mo{
+        color: #8f8f8f;
+    }
+     .testimonials-image{
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+     }
+#features{
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    padding: 4.5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials .colored-section, #cta .colored-section {
+    background-color: #ef8172;
+}
+#press .colored-section {
+   background-color : #ef8172;
+    padding-bottom: 5%;
+}
+.press-images{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+.pricing-heading{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 2% 3%;
+}
+@media(max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+a{
+    color: black;
+    margin: 7px;
+}
